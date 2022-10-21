@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="algorithms\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="algorithms\" />
+  </ItemGroup>
 </Project>
